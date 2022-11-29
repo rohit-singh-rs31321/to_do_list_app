@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+  background: #2b242d;
+  font-size: 20px;
+  color: white;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 50px;
+}
+
+
+.app-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.input-text {
+  background-color: #99809e;
+  color: rgb(255, 255, 255);
+  padding:  8px 15px;
+    border: none;
+  margin: 20px 0; 
+  flex: 1 1 0%;
+	width: 250px;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+	color: rgb(0, 0, 0);
+	font-size: 1.25rem;
+}
+.input-text::placeholder {
+	color: #d7dadc;
+}
+.add-btn {
+  border-radius: .5rem;
+  background-color: #ddbae7;
+  color: #2b242d;
+  font-size: 1.25rem;
+  border: none;
+  padding: 8px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  
+  
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.list {
+  list-style-type: none;
+  padding-inline-start: 0;
+  
+  
+  
+}
+ul li{
+  border-radius: .5rem;
+  background-color: #4f4252;
+  padding: 10px  5%;
+  width: 60vw;
+  font-size: 1.4rem;
+  font-weight: 600;
+	transition: 0.4s;
+  margin-bottom: 10px;
+  
+}
+.btn {
+  float: right;
+  border-radius: .3rem;
+  background-color: rgb(255, 42, 0);
+  border: none;
+  color: azure;
+  padding: 1px 8px;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+}
